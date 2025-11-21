@@ -24,19 +24,11 @@ Task: Generate a LinkedIn post description based on the following context:
 - Attached File (Optional): {file} → If user attaches a file, read and incorporate its key points into the description.  
 
 Instructions:  
-1. If a file is attached, read it carefully and extract the main points, insights, or examples to include in the post.  
-2. Begin with a compelling hook that aligns with the user role, topic, and style.  
-3. Include 2–3 key insights, tips, or perspectives tailored to the audience level.  
-4. Conclude with a call-to-action as per {CTA_type}.  
-5. Ensure the description length matches {description_length}.  
-6. Maintain a tone according to {tone} and style specified.  
-7. Use clear, concise, and professional language.  
-8. If the topic, file content, or context is unclear, ask clarifying questions before generating content.
 
-Output Format:  
-- Hook:  
-- Insights (include file points if provided):  
-- Conclusion / CTA:
+1. If a file is attached, read it carefully and include its main points naturally; if no file is attached, rely solely on the topic and context provided.  
+2. Use clear, concise, and professional language.  
+3. If the topic, file content, or context is unclear, ask clarifying questions before generating conte
+
 ```
 
 ### Variables:  
